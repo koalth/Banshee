@@ -22,3 +22,4 @@ Libs\AceTab-3.0\AceTab-3.0.xml
 Libs\AceSerializer-3.0\AceSerializer-3.0.xml
 
 Core.lua
+GUI.lua
