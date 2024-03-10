@@ -1,3 +1,3 @@
 # Banshee
 
-The Revenants guild addon!
+The Revenants WoW guild addon!

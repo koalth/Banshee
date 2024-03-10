@@ -3,15 +3,10 @@ Banshee = LibStub("AceAddon-3.0"):NewAddon("Banshee", "AceConsole-3.0", "AceHook
 function Banshee:OnInitialize()
     self:Print("Banshee is active");
 
-    self:RegisterChatCommand("banshee", "ShowGUI");
-    self:RegisterChatCommand("bs", "ShowGUI");
+    self:RegisterChatCommand("banshee", "ShowMainMenu");
+    self:RegisterChatCommand("bs", "ShowMainMenu");
 end
 
-function Banshee:GetNumGuildMembers()
-    local numTotal, numOnline, numOnlineAndMobile = GetNumGuildMembers();
-    self:Print("Number of online members: " .. numOnline);
-end
-
-function Banshee:ShowGUI()
-    self:ShowFrame()
+function Banshee:ShowMainMenu()
+    MainMenu.Show()
 end
